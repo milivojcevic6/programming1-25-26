@@ -4,8 +4,7 @@ This repository contains code solutions from the first three tutorial weeks of t
 
 ## 📁 Repository Structure
 
-The code is organized by tutorial week and group for easy navigation:
-The code is organized by **tutorial week** and **group** for easy navigation:
+The code is organized by group and tutorial week for easy navigation:
 
 ```
 [group-name]/
