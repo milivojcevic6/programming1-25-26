@@ -14,7 +14,7 @@ The code is organized by **tutorial week** and **group** for easy navigation:
 ├── tutorial-2/
 │ └── [Java files for Tutorial 2]
 └── tutorial-3/
-└── [Java files for Tutorial 3]
+│ └── [Java files for Tutorial 3]
 ```
 
 
