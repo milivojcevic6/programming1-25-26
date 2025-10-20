@@ -24,6 +24,12 @@ Navigate directly to your group's directory:
 
 | Group | Directory Link |
 |-------|----------------|
+| sl-mm | [View files](./sl-mm) |
+| sl-bf | [View files](./sl-bf) |
+| sl-rin1 | [View files](./sl-rin1) |
+| sl-rin2 | [View files](./sl-rin2) |
+| sl-rin3 | [View files](./sl-rin3) |
+| sl-rin4 | [View files](./sl-rin4) |
 | en-bf | [View files](./en-bf) |
 | en-rin1 | [View files](./en-rin1) |
 | en-rin2 | [View files](./en-rin2) |
