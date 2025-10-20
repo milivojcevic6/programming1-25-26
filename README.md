@@ -1,6 +1,7 @@
-# Programiranje 1 25/26 - Repozitorij s Kodo za Vaje
-
 👉 [Scroll down for English version](#programming-1-2526---tutorial-code-repository)
+
+
+# Programiranje 1 25/26 - Repozitorij s Kodo za Vaje
 
 Ta repozitorij vsebuje rešitve kode iz prvih treh tednov vaj pri predmetu **Programiranje 1**.
 
