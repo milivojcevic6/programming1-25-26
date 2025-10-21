@@ -27,18 +27,18 @@ Neposredno pojdite v mapo svoje skupine:
 
 | Skupina | Povezava do Mape |
 |----------|------------------|
-| sl-mm | [Poglej datoteke](./sl-mm) |
-| sl-bf | [Poglej datoteke](./sl-bf) |
-| sl-rin1 | [Poglej datoteke](./sl-rin1) |
-| sl-rin2 | [Poglej datoteke](./sl-rin2) |
-| sl-rin3 | [Poglej datoteke](./sl-rin3) |
-| sl-rin4 | [Poglej datoteke](./sl-rin4) |
-| en-bf | [Poglej datoteke](./en-bf) |
-| en-rin1 | [Poglej datoteke](./en-rin1) |
-| en-rin2 | [Poglej datoteke](./en-rin2) |
-| en-rin3 | [Poglej datoteke](./en-rin3) |
-| en-rin4 | [Poglej datoteke](./en-rin4) |
-| en-rin5 | [Poglej datoteke](./en-rin5) |
+| MA1 | [Poglej datoteke](./MA1) |
+| BF1 | [Poglej datoteke](./BF1) |
+| RIN1-1-skupina | [Poglej datoteke](./RIN1-1-skupina) |
+| RIN1-2-skupina | [Poglej datoteke](./RIN1-2-skupina) |
+| RIN1-3-skupina | [Poglej datoteke](./RIN1-3-skupina) |
+| RIN1-4-skupina | [Poglej datoteke](./RIN1-4-skupina) |
+| BF1-EN | [Poglej datoteke](./BF1-EN) |
+| RIN1-EN-1-group | [Poglej datoteke](./RIN1-EN-1-group) |
+| RIN1-EN-2-group | [Poglej datoteke](./RIN1-EN-2-group) |
+| RIN1-EN-3-group | [Poglej datoteke](./RIN1-EN-3-group) |
+| RIN1-EN-4-group | [Poglej datoteke](./RIN1-EN-4-group) |
+| RIN1-EN-5-group | [Poglej datoteke](./RIN1-EN-5-group) |
 
 ### Brskanje po Tednih Vaj
 Znotraj mape posamezne skupine boste našli vaje po tednih:
