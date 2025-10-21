@@ -81,18 +81,18 @@ Navigate directly to your group's directory:
 
 | Group | Directory Link |
 |-------|----------------|
-| sl-mm | [View files](./sl-mm) |
-| sl-bf | [View files](./sl-bf) |
-| sl-rin1 | [View files](./sl-rin1) |
-| sl-rin2 | [View files](./sl-rin2) |
-| sl-rin3 | [View files](./sl-rin3) |
-| sl-rin4 | [View files](./sl-rin4) |
-| en-bf | [View files](./en-bf) |
-| en-rin1 | [View files](./en-rin1) |
-| en-rin2 | [View files](./en-rin2) |
-| en-rin3 | [View files](./en-rin3) |
-| en-rin4 | [View files](./en-rin4) |
-| en-rin5 | [View files](./en-rin5) |
+| MA1 | [View files](./MA1) |
+| BF1 | [View files](./BF1) |
+| RIN1-1-skupina | [View files](./RIN1-1-skupina) |
+| RIN1-2-skupina | [View files](./RIN1-2-skupina) |
+| RIN1-3-skupina | [View files](./RIN1-3-skupina) |
+| RIN1-4-skupina | [View files](./RIN1-4-skupina) |
+| BF1-EN | [View files](./BF1-EN) |
+| RIN1-EN-1-group | [View files](./RIN1-EN-1-group) |
+| RIN1-EN-2-group | [View files](./RIN1-EN-2-group) |
+| RIN1-EN-3-group | [View files](./RIN1-EN-3-group) |
+| RIN1-EN-4-group | [View files](./RIN1-EN-4-group) |
+| RIN1-EN-5-group | [View files](./RIN1-EN-5-group) |
 
 ### Browse by Tutorial Week
 Within any group directory, you'll find organized weekly tutorials:
