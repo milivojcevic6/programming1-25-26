@@ -17,6 +17,7 @@ Koda je organizirana po skupinah in tednih vaj za lažjo navigacijo:
 │ └── [Java datoteke za 2. vajo]
 └── tutorial-3/
 │ └── [Java datoteke za 3. vajo]
+|...
 ```
 
 
@@ -44,7 +45,8 @@ Neposredno pojdite v mapo svoje skupine:
 Znotraj mape posamezne skupine boste našli vaje po tednih:
 - `[group-name]/tutorial-1/` - Rešitve za 1. teden  
 - `[group-name]/tutorial-2/` - Rešitve za 2. teden  
-- `[group-name]/tutorial-3/` - Rešitve za 3. teden  
+- `[group-name]/tutorial-3/` - Rešitve za 3. teden
+- ...
 
 ### Lokacija Izvornih Datotek
 Vse izvorne datoteke v Javi (`.java`) se nahajajo v mapi `src/` znotraj posamezne mape vaj.
@@ -71,6 +73,7 @@ The code is organized by group and tutorial week for easy navigation:
 │ └── [Java files for Tutorial 2]
 └── tutorial-3/
 │ └── [Java files for Tutorial 3]
+|...
 ```
 
 
@@ -99,6 +102,7 @@ Within any group directory, you'll find organized weekly tutorials:
 - `[group-name]/tutorial-1/` - Week 1 solutions
 - `[group-name]/tutorial-2/` - Week 2 solutions  
 - `[group-name]/tutorial-3/` - Week 3 solutions
+- ...
 
 ### Source Files Location
 All Java source files (`.java` classes) are located within the `src/` directory inside each tutorial folder.
