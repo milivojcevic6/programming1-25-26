@@ -1,0 +1,48 @@
+public class Car {
+    public static int counter = 0;
+    private String brand;
+    private String model;
+    private double price; //fields or attributes
+
+    public Car(String brand, String model, double price){
+        this.brand = brand; // this means current object
+        this.model = model;
+        this.price = price;
+        counter++;
+    }
+
+    //methods
+
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public void drive(){
+        System.out.println("Driving " + model + ", wroom wroom!");
+    }
+
+    public void breaking(){
+        System.out.println("BREAKING!!!!");
+    }
+}
