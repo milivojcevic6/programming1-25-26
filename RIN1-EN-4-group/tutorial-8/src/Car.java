@@ -1,48 +1,39 @@
 public class Car {
-    // data
     // fields
-    private String brand;
-    private String model;
+    private String color;
+    private double width;
+    private double length;
     private double price;
-    public static int counter = 0;
 
-    // constructor
-
-
-    public Car(String brand, String model, double price) {
-        this.brand = brand;
-        this.model = model;
+    public Car(double price, double length, double width, String color) {
         this.price = price;
-        counter++;
+        this.length = length;
+        this.width = width;
+        this.color = color;
     }
 
-    // methods
-    public void drive(){
-        System.out.println("Driving " + brand + " " + model);
+    public String getColor() {
+        return color;
     }
 
-    public void playSong(String song){
-        System.out.println("Playing " + song);
+    public void setColor(String color) {
+        this.color = color;
     }
 
-    public String toString(){
-        return brand + " " + model + " " + price + "$";
+    public double getWidth() {
+        return width;
     }
 
-    public String getBrand() {
-        return brand;
+    public void setWidth(double width) {
+        this.width = width;
     }
 
-    public void setBrand(String brand) {
-        this.brand = brand;
+    public double getLength() {
+        return length;
     }
 
-    public String getModel() {
-        return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
+    public void setLength(double length) {
+        this.length = length;
     }
 
     public double getPrice() {
@@ -51,5 +42,13 @@ public class Car {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public String toString(){
+        return "Car with width: " + width + " length: " + length + " and price "+ price;
+    }
+
+    public void drive(){
+        System.out.println("Driving my car of price "+ price);
     }
 }

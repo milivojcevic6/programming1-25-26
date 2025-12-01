@@ -1,36 +1,50 @@
 public class Point {
-    // DATA
-    // fields (attributes)
-    // public - accessible from anywhere
-    // private - accessible only within same class
-    // final - unchangable (constant)
-
-    // ENCAPSULATION - using private fields and accessing using getters and setters
+    // data - fields (attributes)
+    // private -  accessible inside the same class
+    // public - from anywhere
+    // default - from same package
     private int x;
     private int y;
-
-    //constructor overloading
-    public Point(){// create 0,0 point
-        //new Point(0,0);
+    String color;
+    // ENCAPSULATION -  fields are private and we create mehtods for accessing them (easily control the access)
+    // when we have more constructors it is called constructor overloading
+    Point(){
         this(0);
+        //new Point(0,0,"black");
     }
 
-    public Point(int x){
-        this(x,0);
+    Point(int x){
+        this(x, 0, "black");
     }
 
-    public Point(int x, int y){
-        this.x = x;
+    Point(int x, int y, String color){ // constructor
+        this.x = x; // this references object itself and distinguishes fields from parameters
         this.y = y;
+        this.color = color;
     }
 
-    // methods - tell us possible actions or behaviour of our object
+    // methods (behaviour)
+    void printColor(){
+        System.out.println(color);
+    }
+
+    public String toString(){
+        return "Point coordinates: " + x + "," + y + "      color: " + color;
+    }
+
+    // setter and getters
+    // setter used to modify fields
+    // getter used to read fields
     public int getX(){
         return x;
     }
 
     public void setX(int x){
-        this.x = x;
+        if(x < 0){
+            System.out.println("Only positive values");
+        }else{
+            this.x = x;
+        }
     }
 
     public int getY() {
@@ -41,33 +55,27 @@ public class Point {
         this.y = y;
     }
 
-    public void drawPoint(){
-        System.out.println("Point drawn!");
-    }
-
-    public String toString(){
-        return "Coordinates: (" + x + "," + y + ")";
-    }
-
-    public static void hi(){
-        System.out.println("HI I AM STATIC METHOD");
-    }
-
     public double euclideanDistance(Point other){
-        double distance = Math.sqrt(Math.pow(this.x - other.x,2) + Math.pow(this.y - other.y,2));
-        return distance;
+        double result = Math.sqrt((Math.pow((this.x - other.x),2) + (Math.pow((this.y - other.y),2))));
+        return result;
     }
 
-    public double distanceFromOrigin(){ // point (0,0)
-        Point origin = new Point();
+    public double distanceFromOrigin(){
+        Point origin = new Point(0,0,"black"); // new Point() works as well
         return euclideanDistance(origin);
     }
 
-    public double areaOfSquare(Point other){
+    public double squareArea(Point other){
         double diagonal = euclideanDistance(other);
-        double sideOfSquare = diagonal / Math.sqrt(2);
-        double area = sideOfSquare * sideOfSquare; // change to * 4 to get perimeter
+        double a = diagonal / Math.sqrt(2);
+        double area = Math.pow(a,2);
         return area;
     }
 
+    public double squarePerimeter(Point other){
+        double diagonal = euclideanDistance(other);
+        double a = diagonal / Math.sqrt(2);
+        double perimeter = 4 * a;
+        return perimeter;
+    }
 }
