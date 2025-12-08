@@ -25,10 +25,12 @@ public class Main {
         frame.add(radio, BorderLayout.WEST);
         radio.setBackground(new Color(200,100,255));
 
-//        JTextArea textArea = new JTextArea(200, 200);
-//        textArea.setPreferredSize(new Dimension(200,200));
-//
-//        frame.add(textArea, BorderLayout.SOUTH);
+        JTextArea textArea = new JTextArea("Write here if you want!",10, 50);
+        textArea.setPreferredSize(new Dimension(200,200));
+        textArea.setLineWrap(true);
+        frame.add(textArea, BorderLayout.SOUTH);
+
+        // THE PROBLEM WAS THAT I PUT 200 ROWS SO IT COVERS WHOLE FRAME AND CAUSES ERRORS
 
         // JPanel
         JPanel center = new JPanel(); // default layout is FlowLayout
